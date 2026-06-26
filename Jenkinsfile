@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = '<dockerhub_username>/<repository_name>'
+        DOCKER_IMAGE = 'sserebrennykov/cicd_task_test'
         DOCKER_TAG = "${env.BUILD_NUMBER}"
     }
 
