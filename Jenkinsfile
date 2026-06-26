@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'sserebrennykov/cicd_task_test'
+        DOCKER_IMAGE = 'sserebrennykov/cicd-jenkins-task'
         DOCKER_TAG = "${env.BUILD_NUMBER}"
     }
 
